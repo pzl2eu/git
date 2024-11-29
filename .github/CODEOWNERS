@@ -1,0 +1,18 @@
+# 所有文件都由 @owner1 和 @owner2 负责
+* @owner1 @owner2
+
+# docs 目录下的文件由 @doc-team 负责
+/docs/* @doc-team
+
+# src 目录下的所有 JS 文件由 @js-team 负责
+/src/*.js @js-team
+
+# 代码库的配置文件由 @admin 负责
+/config/* @admin
+
+# 排除 README 文件
+!README.md
+
+# 特定文件的负责人
+README.md @owner1
+/src/special.js @special-owner
